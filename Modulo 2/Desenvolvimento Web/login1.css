@@ -1,0 +1,79 @@
+body{
+  font-family: Arial, sans-serif;
+  background-image: url('login.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  height: 80vh;           
+  display: flex;           
+  justify-content: center; 
+  align-items: center;
+  
+}
+
+.long{
+  width: 400px;  
+  height: auto; 
+  padding: 40px 100px 100px 100px;  
+  background-color: transparent;
+  text-align: center;
+  border: 8px solid forestgreen;
+  border-radius:  20px;
+}
+  
+
+
+
+form{
+  font-size: 23px;
+  color: rgb(14, 59, 12);
+
+}
+.title{
+  
+  background-color: oklch(62.7% 0.194 149.214);
+ color: rgb(0, 255, 0);
+  border: 2px solid green;
+  border-radius: 15px;
+  margin: 0 0 40px 0
+  
+}
+
+.campo::placeholder{
+  color: rgb(0, 255, 0);
+  
+}
+
+.campo{
+  
+  background-color: green;
+  border: 2px solid black;
+  border-radius: 14px;
+  height: 25px;
+  color: rgb(0, 255, 21);
+  
+}
+button{
+    margin-left: 40px;
+  background-color: green;
+  border: 2px solid black;
+  border-radius: 14px;
+  height: 35px;
+  width: 70px;
+  
+}
+.botao {
+  display: flex;
+  justify-content: center;    
+  align-items: center; 
+  gap: 10px;                   
+}
+
+.botao{
+  color: #00ff2a;
+}
+a{
+  color: #00ff2a;
+}
+
+
